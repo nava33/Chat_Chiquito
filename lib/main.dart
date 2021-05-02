@@ -21,7 +21,7 @@ class FriendlyChatApp extends StatelessWidget {
 }
 
 class ChatMessage extends StatelessWidget {
-  ChatMessage({required this.text});
+  ChatMessage({this.text});
   final String text;
 
   @override
